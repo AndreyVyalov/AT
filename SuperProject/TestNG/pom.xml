@@ -25,6 +25,8 @@
 		<groupId>epam.saratov.homeWork.testng.objects</groupId>
    		<artifactId>GeometricObjects</artifactId>
    		<version>01.000.00</version>
+   		<scope>system</scope>
+   		<systemPath>${basedir}/src/main/resouces</systemPath>
 	</dependency>
   </dependencies>
 </project>
