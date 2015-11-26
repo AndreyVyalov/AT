@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="parameterSideTwo" value="600"/>
-  <parameter name="parameterSideOne" value="500"/>
-  <test name="Test(failed)">
-    <parameter name="parameterSideTwo" value="600"/>
-    <parameter name="parameterSideOne" value="500"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="environment.NegativeTestsNG">
-        <methods>
-          <include name="testPreparation"/>
-          <include name="testRectangleIsNotQuadrate"/>
-          <include name="testFinalisation"/>
-        </methods>
-      </class> <!-- environment.NegativeTestsNG -->
       <class name="environment.TestFactory">
         <methods>
           <include name="testFinalisation"/>
@@ -43,5 +32,5 @@
         </methods>
       </class> <!-- environment.TestFactory -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
