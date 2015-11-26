@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class EndAttemptAmount {
+public class EndAttemptAmountTest {
 	NumberGuessBean numberGuessInstance;
 	int max = 100;
 	int min = 1;
