@@ -26,7 +26,7 @@
    		<artifactId>GeometricObjects</artifactId>
    		<version>01.000.00</version>
    		<scope>system</scope>
-   		<systemPath>${basedir}/src/main/resouces</systemPath>
+   		<systemPath>${basedir}/src/main/resources/Unit Frameworks. TestNG_GeomObjects.jar</systemPath>
 	</dependency>
   </dependencies>
 </project>
