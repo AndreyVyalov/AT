@@ -8,7 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class NumGuessTest {
-	NumberGuessBean numberGuessInstance;
+	private NumberGuessBean numberGuessInstance;
 
 	@Before
 	public void setUp() {
