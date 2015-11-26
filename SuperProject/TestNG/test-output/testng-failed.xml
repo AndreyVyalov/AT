@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="parameterSideTwo" value="600"/>
+  <parameter name="parameterSideOne" value="500"/>
+  <test name="Test(failed)">
+    <parameter name="parameterSideTwo" value="600"/>
+    <parameter name="parameterSideOne" value="500"/>
+    <classes>
+      <class name="environment.NegativeTestsNG">
+        <methods>
+          <include name="testPreparation"/>
+          <include name="testRectangleIsNotQuadrate"/>
+          <include name="testFinalisation"/>
+        </methods>
+      </class> <!-- environment.NegativeTestsNG -->
+      <class name="environment.TestFactory">
+        <methods>
+          <include name="testFinalisation"/>
+          <include name="testQuadrateGetPerimeter"/>
+          <include name="testQuadrateGetPerimeter"/>
+          <include name="testQuadrateGetPerimeter"/>
+          <include name="testQuadrateGetSquare"/>
+          <include name="testQuadrateGetSquare"/>
+          <include name="testQuadrateGetSquare"/>
+          <include name="testRectangleGetPerimeter"/>
+          <include name="testRectangleGetPerimeter"/>
+          <include name="testRectangleGetPerimeter"/>
+          <include name="testPreparation"/>
+          <include name="testCircleGetCircumference"/>
+          <include name="testCircleGetCircumference"/>
+          <include name="testCircleGetCircumference"/>
+          <include name="testCircleGetSquare"/>
+          <include name="testCircleGetSquare"/>
+          <include name="testCircleGetSquare"/>
+          <include name="testRectangleGetSquare"/>
+          <include name="testRectangleGetSquare"/>
+          <include name="testRectangleGetSquare"/>
+          <include name="testCircleNullPointer"/>
+          <include name="testCircleNullPointer"/>
+          <include name="testCircleNullPointer"/>
+          <include name="testRectangleIsQuadrate"/>
+        </methods>
+      </class> <!-- environment.TestFactory -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
