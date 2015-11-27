@@ -6,7 +6,7 @@
     <parameter name="parameterSideTwo" value="600" />
     <classes>
       <class name="environment.TestFactory"/>
-      <class name="environment.NegativeTestsNG"/>
+      <class name="environment.NegativeTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
