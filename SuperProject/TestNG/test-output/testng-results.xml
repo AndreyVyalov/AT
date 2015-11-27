@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="30" passed="30">
+<testng-results skipped="0" failed="0" total="31" passed="31">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91" started-at="2015-11-26T15:42:15Z" finished-at="2015-11-26T15:42:15Z">
+  <suite name="Suite" duration-ms="123" started-at="2015-11-26T15:57:20Z" finished-at="2015-11-26T15:57:20Z">
     <groups>
       <group name="rectangle">
-        <method signature="PositiveTestsNG.testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleGetPerimeter" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleGetPerimeter" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleGetPerimeter" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleIsQuadrate" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleIsQuadrate" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleIsQuadrate" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleGetPerimeter" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleGetPerimeter" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleGetPerimeter" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleIsQuadrate" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleIsQuadrate" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleIsQuadrate" class="environment.PositiveTestsNG"/>
       </group> <!-- rectangle -->
       <group name="quadrate">
-        <method signature="PositiveTestsNG.testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@409aec9d]" name="testQuadrateGetPerimeter" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@7b24588d]" name="testQuadrateGetPerimeter" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@f31d024]" name="testQuadrateGetPerimeter" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@409aec9d]" name="testQuadrateGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@7b24588d]" name="testQuadrateGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@f31d024]" name="testQuadrateGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@53be6b71]" name="testQuadrateGetPerimeter" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testQuadrateGetPerimeter" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testQuadrateGetPerimeter" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@53be6b71]" name="testQuadrateGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testQuadrateGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testQuadrateGetSquare" class="environment.PositiveTestsNG"/>
       </group> <!-- quadrate -->
       <group name="circle">
-        <method signature="PositiveTestsNG.testCircleGetCircumference()[pri:1, instance:environment.TestFactory@409aec9d]" name="testCircleGetCircumference" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleGetCircumference()[pri:1, instance:environment.TestFactory@7b24588d]" name="testCircleGetCircumference" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleGetCircumference()[pri:1, instance:environment.TestFactory@f31d024]" name="testCircleGetCircumference" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleGetSquare()[pri:2, instance:environment.TestFactory@409aec9d]" name="testCircleGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleGetSquare()[pri:2, instance:environment.TestFactory@7b24588d]" name="testCircleGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleGetSquare()[pri:2, instance:environment.TestFactory@f31d024]" name="testCircleGetSquare" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleNullPointer()[pri:0, instance:environment.TestFactory@409aec9d]" name="testCircleNullPointer" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleNullPointer()[pri:0, instance:environment.TestFactory@7b24588d]" name="testCircleNullPointer" class="environment.PositiveTestsNG"/>
-        <method signature="PositiveTestsNG.testCircleNullPointer()[pri:0, instance:environment.TestFactory@f31d024]" name="testCircleNullPointer" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleGetCircumference()[pri:1, instance:environment.TestFactory@53be6b71]" name="testCircleGetCircumference" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleGetCircumference()[pri:1, instance:environment.TestFactory@6614b5ba]" name="testCircleGetCircumference" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleGetCircumference()[pri:1, instance:environment.TestFactory@7a7ff2aa]" name="testCircleGetCircumference" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleGetSquare()[pri:2, instance:environment.TestFactory@53be6b71]" name="testCircleGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleGetSquare()[pri:2, instance:environment.TestFactory@6614b5ba]" name="testCircleGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleGetSquare()[pri:2, instance:environment.TestFactory@7a7ff2aa]" name="testCircleGetSquare" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleNullPointer()[pri:0, instance:environment.TestFactory@53be6b71]" name="testCircleNullPointer" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleNullPointer()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testCircleNullPointer" class="environment.PositiveTestsNG"/>
+        <method signature="PositiveTestsNG.testCircleNullPointer()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testCircleNullPointer" class="environment.PositiveTestsNG"/>
       </group> <!-- circle -->
     </groups>
-    <test name="Default test" duration-ms="91" started-at="2015-11-26T15:42:15Z" finished-at="2015-11-26T15:42:15Z">
+    <test name="Test" duration-ms="123" started-at="2015-11-26T15:57:20Z" finished-at="2015-11-26T15:57:20Z">
       <class name="environment.TestFactory">
-        <test-method status="PASS" signature="testPreparation()[pri:0, instance:environment.TestFactory@f31d024]" name="testPreparation" is-config="true" duration-ms="7" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPreparation -->
-        <test-method status="PASS" signature="testCircleNullPointer()[pri:0, instance:environment.TestFactory@409aec9d]" name="testCircleNullPointer" duration-ms="4" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleNullPointer()[pri:0, instance:environment.TestFactory@53be6b71]" name="testCircleNullPointer" duration-ms="5" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -76,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleNullPointer -->
-        <test-method status="PASS" signature="testCircleNullPointer()[pri:0, instance:environment.TestFactory@7b24588d]" name="testCircleNullPointer" duration-ms="0" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleNullPointer()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testCircleNullPointer" duration-ms="1" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -111,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleNullPointer -->
-        <test-method status="PASS" signature="testCircleNullPointer()[pri:0, instance:environment.TestFactory@f31d024]" name="testCircleNullPointer" duration-ms="1" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleNullPointer()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testCircleNullPointer" duration-ms="0" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -146,55 +142,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleNullPointer -->
-        <test-method status="PASS" signature="testCircleGetCircumference()[pri:1, instance:environment.TestFactory@409aec9d]" name="testCircleGetCircumference" duration-ms="4" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleGetCircumference()[pri:1, instance:environment.TestFactory@53be6b71]" name="testCircleGetCircumference" duration-ms="2" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleGetCircumference -->
-        <test-method status="PASS" signature="testCircleGetCircumference()[pri:1, instance:environment.TestFactory@7b24588d]" name="testCircleGetCircumference" duration-ms="0" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleGetCircumference()[pri:1, instance:environment.TestFactory@6614b5ba]" name="testCircleGetCircumference" duration-ms="1" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleGetCircumference -->
-        <test-method status="PASS" signature="testCircleGetCircumference()[pri:1, instance:environment.TestFactory@f31d024]" name="testCircleGetCircumference" duration-ms="0" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleGetCircumference()[pri:1, instance:environment.TestFactory@7a7ff2aa]" name="testCircleGetCircumference" duration-ms="1" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleGetCircumference -->
-        <test-method status="PASS" signature="testCircleGetSquare()[pri:2, instance:environment.TestFactory@409aec9d]" name="testCircleGetSquare" duration-ms="1" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleGetSquare()[pri:2, instance:environment.TestFactory@53be6b71]" name="testCircleGetSquare" duration-ms="0" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleGetSquare -->
-        <test-method status="PASS" signature="testCircleGetSquare()[pri:2, instance:environment.TestFactory@7b24588d]" name="testCircleGetSquare" duration-ms="0" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleGetSquare()[pri:2, instance:environment.TestFactory@6614b5ba]" name="testCircleGetSquare" duration-ms="1" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleGetSquare -->
-        <test-method status="PASS" signature="testCircleGetSquare()[pri:2, instance:environment.TestFactory@f31d024]" name="testCircleGetSquare" duration-ms="1" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testCircleGetSquare()[pri:2, instance:environment.TestFactory@7a7ff2aa]" name="testCircleGetSquare" duration-ms="1" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleGetSquare -->
-        <test-method status="PASS" signature="testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@409aec9d]" name="testQuadrateGetPerimeter" duration-ms="1" depends-on-groups="circle" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@53be6b71]" name="testQuadrateGetPerimeter" duration-ms="0" depends-on-groups="circle" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuadrateGetPerimeter -->
-        <test-method status="PASS" signature="testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@7b24588d]" name="testQuadrateGetPerimeter" duration-ms="0" depends-on-groups="circle" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testQuadrateGetPerimeter" duration-ms="0" depends-on-groups="circle" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuadrateGetPerimeter -->
-        <test-method status="PASS" signature="testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@f31d024]" name="testQuadrateGetPerimeter" duration-ms="1" depends-on-groups="circle" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testQuadrateGetPerimeter()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testQuadrateGetPerimeter" duration-ms="1" depends-on-groups="circle" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuadrateGetPerimeter -->
-        <test-method status="PASS" signature="testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@409aec9d]" name="testQuadrateGetSquare" duration-ms="1" depends-on-groups="circle" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@53be6b71]" name="testQuadrateGetSquare" duration-ms="0" depends-on-groups="circle" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuadrateGetSquare -->
-        <test-method status="PASS" signature="testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@7b24588d]" name="testQuadrateGetSquare" duration-ms="1" depends-on-groups="circle" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testQuadrateGetSquare" duration-ms="1" depends-on-groups="circle" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuadrateGetSquare -->
-        <test-method status="PASS" signature="testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@f31d024]" name="testQuadrateGetSquare" duration-ms="1" depends-on-groups="circle" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testQuadrateGetSquare()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testQuadrateGetSquare" duration-ms="0" depends-on-groups="circle" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuadrateGetSquare -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -210,7 +206,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -226,7 +222,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -242,7 +238,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -258,7 +254,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleGetPerimeter" duration-ms="2" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -274,7 +270,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -290,7 +286,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -306,7 +302,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleGetPerimeter" duration-ms="0" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -322,7 +318,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:42:15Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetPerimeter(double, double)[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleGetPerimeter" duration-ms="1" depends-on-groups="quadrate" started-at="2015-11-26T18:57:20Z" data-provider="sidesValueDataProvider" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -338,71 +334,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetPerimeter -->
-        <test-method status="PASS" signature="testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleGetSquare" duration-ms="1" started-at="2015-11-26T18:42:15Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetPerimeter" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleGetSquare" duration-ms="1" started-at="2015-11-26T18:57:20Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetPerimeter" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5.0]]>
+                <![CDATA[500.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[5.0]]>
+                <![CDATA[600.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetSquare -->
-        <test-method status="PASS" signature="testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleGetSquare" duration-ms="1" started-at="2015-11-26T18:42:15Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetPerimeter" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleGetSquare" duration-ms="1" started-at="2015-11-26T18:57:20Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetPerimeter" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5.0]]>
+                <![CDATA[500.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[5.0]]>
+                <![CDATA[600.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetSquare -->
-        <test-method status="PASS" signature="testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleGetSquare" duration-ms="0" started-at="2015-11-26T18:42:15Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetPerimeter" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleGetSquare(double, double)[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleGetSquare" duration-ms="1" started-at="2015-11-26T18:57:20Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetPerimeter" finished-at="2015-11-26T18:57:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5.0]]>
+                <![CDATA[500.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[5.0]]>
+                <![CDATA[600.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleGetSquare -->
-        <test-method status="PASS" signature="testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@409aec9d]" name="testRectangleIsQuadrate" duration-ms="0" started-at="2015-11-26T18:42:15Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetSquare" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@53be6b71]" name="testRectangleIsQuadrate" duration-ms="1" started-at="2015-11-26T18:57:20Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetSquare" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleIsQuadrate -->
-        <test-method status="PASS" signature="testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@7b24588d]" name="testRectangleIsQuadrate" duration-ms="1" started-at="2015-11-26T18:42:15Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetSquare" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testRectangleIsQuadrate" duration-ms="0" started-at="2015-11-26T18:57:20Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetSquare" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleIsQuadrate -->
-        <test-method status="PASS" signature="testFinalisation()[pri:0, instance:environment.TestFactory@f31d024]" name="testFinalisation" is-config="true" duration-ms="1" started-at="2015-11-26T18:42:15Z" finished-at="2015-11-26T18:42:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFinalisation -->
-        <test-method status="PASS" signature="testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@f31d024]" name="testRectangleIsQuadrate" duration-ms="0" started-at="2015-11-26T18:42:15Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetSquare" finished-at="2015-11-26T18:42:15Z">
+        <test-method status="PASS" signature="testRectangleIsQuadrate()[pri:0, instance:environment.TestFactory@7a7ff2aa]" name="testRectangleIsQuadrate" duration-ms="0" started-at="2015-11-26T18:57:20Z" depends-on-methods="environment.PositiveTestsNG.testRectangleGetSquare" finished-at="2015-11-26T18:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRectangleIsQuadrate -->
       </class> <!-- environment.TestFactory -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="environment.NegativeTestsNG">
+        <test-method status="PASS" signature="testPreparation()[pri:0, instance:environment.NegativeTestsNG@ed03465]" name="testPreparation" is-config="true" duration-ms="7" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreparation -->
+        <test-method status="PASS" signature="testPreparation()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testPreparation" is-config="true" duration-ms="1" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreparation -->
+        <test-method status="PASS" signature="testRectangleIsNotQuadrate()[pri:0, instance:environment.NegativeTestsNG@ed03465]" name="testRectangleIsNotQuadrate" duration-ms="2" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRectangleIsNotQuadrate -->
+        <test-method status="PASS" signature="testFinalisation()[pri:0, instance:environment.TestFactory@6614b5ba]" name="testFinalisation" is-config="true" duration-ms="0" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinalisation -->
+        <test-method status="PASS" signature="testFinalisation()[pri:0, instance:environment.NegativeTestsNG@ed03465]" name="testFinalisation" is-config="true" duration-ms="0" started-at="2015-11-26T18:57:20Z" finished-at="2015-11-26T18:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFinalisation -->
+      </class> <!-- environment.NegativeTestsNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

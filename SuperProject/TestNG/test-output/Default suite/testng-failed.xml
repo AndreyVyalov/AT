@@ -3,34 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="environment.TestFactory">
+      <class name="environment.NegativeTestsNG">
         <methods>
-          <include name="testFinalisation"/>
-          <include name="testQuadrateGetPerimeter"/>
-          <include name="testQuadrateGetPerimeter"/>
-          <include name="testQuadrateGetPerimeter"/>
-          <include name="testQuadrateGetSquare"/>
-          <include name="testQuadrateGetSquare"/>
-          <include name="testQuadrateGetSquare"/>
-          <include name="testRectangleGetPerimeter"/>
-          <include name="testRectangleGetPerimeter"/>
-          <include name="testRectangleGetPerimeter"/>
           <include name="testPreparation"/>
-          <include name="testCircleGetCircumference"/>
-          <include name="testCircleGetCircumference"/>
-          <include name="testCircleGetCircumference"/>
-          <include name="testCircleGetSquare"/>
-          <include name="testCircleGetSquare"/>
-          <include name="testCircleGetSquare"/>
-          <include name="testRectangleGetSquare"/>
-          <include name="testRectangleGetSquare"/>
-          <include name="testRectangleGetSquare"/>
-          <include name="testCircleNullPointer"/>
-          <include name="testCircleNullPointer"/>
-          <include name="testCircleNullPointer"/>
-          <include name="testRectangleIsQuadrate"/>
+          <include name="testRectangleIsNotQuadrate"/>
+          <include name="testFinalisation"/>
         </methods>
-      </class> <!-- environment.TestFactory -->
+      </class> <!-- environment.NegativeTestsNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

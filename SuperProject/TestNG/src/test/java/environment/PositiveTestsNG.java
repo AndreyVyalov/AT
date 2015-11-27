@@ -99,6 +99,7 @@ public class PositiveTestsNG {
 	@Test(groups = "rectangle", dependsOnMethods = { "testRectangleGetSquare" })
 	public void testRectangleIsQuadrate() {
 		this.rectangle = new GeometricObjects().getRectangle(sideOne, sideTwo);
-		Assert.assertTrue(this.rectangle.isQuadrate() == (sideOne == sideTwo));
+		Assert.assertTrue(this.rectangle.isQuadrate() == (sideOne == sideTwo)); // temp
+																				// view
 	}
 }
