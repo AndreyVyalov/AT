@@ -15,7 +15,7 @@ import epam.saratov.homeWork.testng.objects.GeometricObjects.Circle;
 import epam.saratov.homeWork.testng.objects.GeometricObjects.Quadrate;
 import epam.saratov.homeWork.testng.objects.GeometricObjects.Rectangle;
 
-public class PositiveTestsNG {
+public class PositiveTest {
 	protected double sideOne = 5.0;
 	protected double sideTwo = 5.0;
 	private double zeroSide = 0.0;

@@ -38,7 +38,7 @@
 	<profiles>
 
 		<profile>
-			<id>PositiveTestsNG</id>
+			<id>positive</id>
 
 			<build>
 				<plugins>
@@ -48,7 +48,7 @@
 						<version>2.12.4</version>
 						<configuration>
 							<includes>
-								<include>**/TestNG/PositiveTestsNG.java</include>
+								<include>**/environment/PositiveTestsNG.java</include>
 							</includes>
 						</configuration>
 					</plugin>
@@ -57,7 +57,7 @@
 		</profile>
 
 		<profile>
-			<id>NegativeTestsNG</id>
+			<id>negative</id>
 
 			<build>
 				<plugins>
@@ -67,7 +67,7 @@
 						<version>2.12.4</version>
 						<configuration>
 							<includes>
-								<include>**/TestNG/NegativeTestsNG.java</include>
+								<include>**/environment/NegativeTestsNG.java</include>
 							</includes>
 						</configuration>
 					</plugin>

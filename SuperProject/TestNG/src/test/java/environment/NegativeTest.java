@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import epam.saratov.homeWork.testng.objects.GeometricObjects;
 import epam.saratov.homeWork.testng.objects.GeometricObjects.Rectangle;
 
-public class NegativeTestsNG {
+public class NegativeTest {
 	private double sideOne = 5;
 	private double sideTwo = 10;
 	private Rectangle rectangle;
