@@ -42,9 +42,9 @@ public class EndAttemptAmountTest {
 			} else {
 
 				if (this.numberGuessInstance.getHint().equals("higher")) {
-					min = guessNumber;
+					min = guessNumber + 1;
 				} else {
-					max = guessNumber;
+					max = guessNumber - 1;
 				}
 
 				if (this.numberGuessInstance.getNumGuesses() == amountOfAttempts) {
@@ -52,9 +52,9 @@ public class EndAttemptAmountTest {
 					Assert.fail("Sad, but true - you lose.");
 
 				} else {
-					System.out.println("Wrong number, trying again..");
+					System.out.println("Wrong number, try again.. "
+							+ numberGuessInstance.getHint());
 				}
-
 			}
 		}
 	}
